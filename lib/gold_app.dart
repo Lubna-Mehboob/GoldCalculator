@@ -92,8 +92,8 @@ class _GoldAppState extends State<GoldApp> {
                 controller: tolaQuantityController,
                 keyboardType: TextInputType.number,
                 decoration: const InputDecoration(
-                  hintText: 'Enter Quantity of Gold in Tola',
-                  hintStyle: TextStyle(color: Colors.grey),
+                  labelText: 'Enter Quantity of Gold in Tola',
+                  labelStyle: TextStyle(color: Colors.grey),
                   border: InputBorder.none,
                 ),
               ),
@@ -123,8 +123,8 @@ class _GoldAppState extends State<GoldApp> {
                 controller: mashaQuantityController,
                 keyboardType: TextInputType.number,
                 decoration: const InputDecoration(
-                  hintText: 'Enter Quantity of Gold in Masha',
-                  hintStyle: TextStyle(color: Colors.grey),
+                  labelText: 'Enter Quantity of Gold in Masha',
+                  labelStyle: TextStyle(color: Colors.grey),
                   border: InputBorder.none,
                 ),
               ),
@@ -154,8 +154,8 @@ class _GoldAppState extends State<GoldApp> {
                 controller: rattiQuantityController,
                 keyboardType: TextInputType.number,
                 decoration: const InputDecoration(
-                  hintText: 'Enter Quantity of Gold in Ratti',
-                  hintStyle: TextStyle(color: Colors.grey),
+                  labelText: 'Enter Quantity of Gold in Ratti',
+                  labelStyle: TextStyle(color: Colors.grey),
                   border: InputBorder.none,
                 ),
               ),
@@ -185,8 +185,8 @@ class _GoldAppState extends State<GoldApp> {
                 controller: pointsQuantityController,
                 keyboardType: TextInputType.number,
                 decoration: const InputDecoration(
-                    hintText: 'Enter Quantity of Gold in Points',
-                    hintStyle: TextStyle(color: Colors.grey),
+                    labelText: 'Enter Quantity of Gold in Points',
+                    labelStyle: TextStyle(color: Colors.grey),
                     border: InputBorder.none),
               ),
             ),
